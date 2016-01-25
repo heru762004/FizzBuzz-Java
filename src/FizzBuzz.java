@@ -8,6 +8,12 @@
  */
 
 public class FizzBuzz {
+	/**
+	 * possible implementation 1 :
+	 * @param start - number start
+	 * @param end - end of number
+	 * @return array of FizzBuzz result
+	 */
 	public String[] fizzBuzz_1(int start, int end) {
 		// make array result to return the result
 		// size is end - start
@@ -27,6 +33,12 @@ public class FizzBuzz {
 		return ans;
 	}
 	
+	/**
+	 * possible implementation 2 :
+	 * @param start - number start
+	 * @param end - end of number
+	 * @return array of FizzBuzz result
+	 */
 	public String[] fizzBuzz_2(int start, int end) {
 		// make array result to return the result
 		// size is end - start
